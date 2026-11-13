@@ -1,0 +1,109 @@
+/* 基本設定 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f7f8fa;
+  color: #333;
+}
+
+/* ページ全体 */
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* ヘッダー */
+.header {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 28px;
+}
+
+.header p {
+  color: #666;
+}
+
+/* セクション */
+.cat-register,
+.cat-list {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+/* フォーム */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* 登録ボタン */
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #267c68;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* 猫のカード */
+.cat-card {
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.cat-card h3 {
+  margin-top: 0;
+}
+
+.cat-card p {
+  margin-bottom: 4px;
+  color: #666;
+}
+
+#photo-preview-area {
+  margin-top: 12px;
+}
+
+#photo-preview {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
